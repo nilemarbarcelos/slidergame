@@ -89,7 +89,7 @@ struct ContentView: View {
                 }) {
                     HStack {
                         Image("StartOverIcon")
-                        Text("Start over")
+                        Text("Start over").modifier(ButtonSmallTextStyle())
                     }
                 }.background(Image("Button")).modifier(Shadow())
                 Spacer()
@@ -102,7 +102,7 @@ struct ContentView: View {
                 Button(action: {}) {
                     HStack {
                         Image("InfoIcon")
-                        Text("Info")
+                        Text("Info").modifier(ButtonSmallTextStyle())
                     }
                     
                 }.background(Image("Button")).modifier(Shadow())
