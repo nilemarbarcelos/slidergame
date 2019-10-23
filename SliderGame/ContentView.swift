@@ -61,7 +61,7 @@ struct ContentView: View {
             Spacer()
             HStack {
                 Text("Put the bullseye as close as you can to:").modifier(LabelStyle())
-                Text("\(target)")
+                Text("\(target)").modifier(ValueStyle())
             }
             Spacer()
             HStack {
@@ -89,20 +89,20 @@ struct ContentView: View {
                 }) {
                     HStack {
                         Image("StartOverIcon")
-                        Text("Start over").modifier(ButtonSmallTextStyle())
+                        Text("Start over")
                     }
                 }.background(Image("Button")).modifier(Shadow())
                 Spacer()
                 Text("Score:").modifier(LabelStyle())
-                Text("\(score)")
+                Text("\(score)").modifier(ValueStyle())
                 Spacer()
                 Text("Round:").modifier(LabelStyle())
-                Text("\(round)")
+                Text("\(round)").modifier(ValueStyle())
                 Spacer()
                 Button(action: {}) {
                     HStack {
                         Image("InfoIcon")
-                        Text("Info").modifier(ButtonSmallTextStyle())
+                        Text("Info")
                     }
                     
                 }.background(Image("Button")).modifier(Shadow())
