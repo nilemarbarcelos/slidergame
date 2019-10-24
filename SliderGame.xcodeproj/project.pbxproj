@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE7CAF02236228C700EED785 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7CAF01236228C700EED785 /* AboutView.swift */; };
 		AE7D9F55235F8C81009D4907 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7D9F54235F8C81009D4907 /* AppDelegate.swift */; };
 		AE7D9F57235F8C81009D4907 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7D9F56235F8C81009D4907 /* SceneDelegate.swift */; };
 		AE7D9F59235F8C81009D4907 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7D9F58235F8C81009D4907 /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE7CAF01236228C700EED785 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		AE7D9F51235F8C81009D4907 /* SliderGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SliderGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE7D9F54235F8C81009D4907 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE7D9F56235F8C81009D4907 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				AE7D9F54235F8C81009D4907 /* AppDelegate.swift */,
 				AE7D9F56235F8C81009D4907 /* SceneDelegate.swift */,
 				AE7D9F58235F8C81009D4907 /* ContentView.swift */,
+				AE7CAF01236228C700EED785 /* AboutView.swift */,
 				AE7D9F5A235F8C83009D4907 /* Assets.xcassets */,
 				AE7D9F5F235F8C83009D4907 /* LaunchScreen.storyboard */,
 				AE7D9F62235F8C83009D4907 /* Info.plist */,
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE7CAF02236228C700EED785 /* AboutView.swift in Sources */,
 				AE7D9F55235F8C81009D4907 /* AppDelegate.swift in Sources */,
 				AE7D9F57235F8C81009D4907 /* SceneDelegate.swift in Sources */,
 				AE7D9F59235F8C81009D4907 /* ContentView.swift in Sources */,
@@ -289,6 +293,7 @@
 				DEVELOPMENT_TEAM = B442Q9D8CS;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SliderGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +314,7 @@
 				DEVELOPMENT_TEAM = B442Q9D8CS;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SliderGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
